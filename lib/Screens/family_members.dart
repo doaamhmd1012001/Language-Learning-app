@@ -24,15 +24,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_one.png')),
+                  child: Image.asset('assets/images/family_members/family_grandfather.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Ichi',style: TextStyle(fontSize: 18),),
-                      Text('One',style: TextStyle(fontSize: 18),),
+                      Text('Ojīsan',style: TextStyle(fontSize: 18),),
+                      Text('Grandfather',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -43,7 +43,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_one_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/grandfather.wav'));
                     },
                     child: Icon(
                     Icons.play_arrow_rounded
@@ -61,15 +61,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_two.png')),
+                  child: Image.asset('assets/images/family_members/family_grandmother.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Ni',style: TextStyle(fontSize: 18),),
-                      Text('two',style: TextStyle(fontSize: 18),),
+                      Text('O bāchan',style: TextStyle(fontSize: 18),),
+                      Text('Grandmother',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -80,7 +80,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_two_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/grandmother.wav'));
 
                     },
                     child: Icon(
@@ -99,15 +99,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_three.png')),
+                  child: Image.asset('assets/images/family_members/family_father.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Mittsu',style: TextStyle(fontSize: 18),),
-                      Text('three',style: TextStyle(fontSize: 18),),
+                      Text('Chichioya',style: TextStyle(fontSize: 18),),
+                      Text('Father',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -118,7 +118,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_three_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/father.wav'));
 
                     },
                     child: Icon(
@@ -137,15 +137,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_four.png')),
+                  child: Image.asset('assets/images/family_members/family_mother.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Shi',style: TextStyle(fontSize: 18),),
-                      Text('four',style: TextStyle(fontSize: 18),),
+                      Text('Hahaoya',style: TextStyle(fontSize: 18),),
+                      Text('Mother',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -156,7 +156,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_four_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/mother.wav'));
  
                     },
                     child: Icon(
@@ -175,15 +175,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_five.png')),
+                  child: Image.asset('assets/images/family_members/family_son.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Go',style: TextStyle(fontSize: 18),),
-                      Text('five',style: TextStyle(fontSize: 18),),
+                      Text('Musuko',style: TextStyle(fontSize: 18),),
+                      Text('Son',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -194,7 +194,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_five_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/son.wav'));
   
                     },
                     child: Icon(
@@ -213,15 +213,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_six.png')),
+                  child: Image.asset('assets/images/family_members/family_daughter.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Roku',style: TextStyle(fontSize: 18),),
-                      Text('six',style: TextStyle(fontSize: 18),),
+                      Text('Musume',style: TextStyle(fontSize: 18),),
+                      Text('Daughter',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -232,7 +232,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_six_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/daughter.wav'));
 
                     },
                     child: Icon(
@@ -251,15 +251,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_seven.png')),
+                  child: Image.asset('assets/images/family_members/family_older_brother.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Sebun',style: TextStyle(fontSize: 18),),
-                      Text('seven',style: TextStyle(fontSize: 18),),
+                      Text('Ani',style: TextStyle(fontSize: 18),),
+                      Text('Older Brother',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -270,7 +270,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_seven_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/olderbrother.wav'));
 
                     },
                     child: Icon(
@@ -289,15 +289,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_eight.png')),
+                  child: Image.asset('assets/images/family_members/family_older_sister.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Hachi',style: TextStyle(fontSize: 18),),
-                      Text('eight',style: TextStyle(fontSize: 18),),
+                      Text('Ane',style: TextStyle(fontSize: 18),),
+                      Text('Older Sister',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -308,7 +308,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_eight_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/oldersister.wav'));
 
                     },
                     child: Icon(
@@ -327,15 +327,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_nine.png')),
+                  child: Image.asset('assets/images/family_members/family_younger_brother.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Kyū',style: TextStyle(fontSize: 18),),
-                      Text('nine',style: TextStyle(fontSize: 18),),
+                      Text('Otōto',style: TextStyle(fontSize: 18),),
+                      Text('Younger Brother',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -346,7 +346,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_nine_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/youngerbrother.wav'));
 
                     },
                     child: Icon(
@@ -365,15 +365,15 @@ class FamilyMembers extends StatelessWidget {
               children: [
                 Container(
                   color: Color(0xffFFF6DC),
-                  child: Image.asset('assets/images/numbers/number_ten.png')),
+                  child: Image.asset('assets/images/family_members/family_younger_sister.png')),
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Jū',style: TextStyle(fontSize: 18),),
-                      Text('ten',style: TextStyle(fontSize: 18),),
+                      Text('Imōto',style: TextStyle(fontSize: 18),),
+                      Text('Younger Sister',style: TextStyle(fontSize: 18),),
                     ],
                   ),
                 ),
@@ -384,7 +384,7 @@ class FamilyMembers extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 15),
                   child: GestureDetector(
                     onTap: () {
-                      player.play(AssetSource('sounds/numbers/number_ten_sound.mp3'));
+                      player.play(AssetSource('sounds/family_members/youngersister.wav'));
 
                     },
                     child: Icon(
