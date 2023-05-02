@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Screens/NumbersPage.dart';
+import 'package:flutter_application_1/Screens/family_members.dart';
 
 
 
@@ -47,7 +48,10 @@ class Homepage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                
+                Navigator.push(context, 
+                MaterialPageRoute(builder: (context){
+                  return FamilyMembers();
+                }));
               },
               child: Container(
                 alignment: Alignment.centerLeft,
